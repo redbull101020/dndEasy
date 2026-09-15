@@ -1,0 +1,22 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+
+# Virtual environments
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Packaging artifacts
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# Review artefacts: diffs produced for out-of-band review. Never committed.
+*.patch
+*.diff
